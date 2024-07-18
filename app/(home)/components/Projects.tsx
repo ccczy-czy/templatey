@@ -34,7 +34,7 @@ export default function Projects() {
       tech: [SiPython, SiMongodb, SiOpenai],
       link: 'https://pypi.org/project/pyrizz/',
       cover: '/pyrizz.png',
-      background: 'bg-indigo-500',
+      background: 'bg-purple-500',
     },
   ];
   return (
