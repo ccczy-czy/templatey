@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 export default function page() {
   return (
@@ -19,6 +20,7 @@ export default function page() {
         <About />
         <Skills />
         <Projects />
+        <Footer />
       </div>
     </div>
   );

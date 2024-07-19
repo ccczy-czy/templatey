@@ -4,8 +4,9 @@ import Link from 'next/link';
 import { SiLinkedin } from 'react-icons/si';
 import { SiGithub } from 'react-icons/si';
 import { SiInstagram } from 'react-icons/si';
+import { cn } from '@/lib/utils';
 
-export default function Navbar() {
+export default function Navbar({ className }: { className?: string }) {
   const socials = [
     {
       link: 'https://www.linkedin.com/in/ziyu-chen-q1e/',
@@ -24,7 +25,7 @@ export default function Navbar() {
     },
   ];
   return (
-    <nav className=" py-10 flex justify-between items-center">
+    <nav className={cn(' py-10 flex justify-between items-center', className)}>
       <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
         Ziyu Chen 🧑🏻‍💻
       </h1>
