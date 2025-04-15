@@ -18,12 +18,12 @@ apps:
           root_path: ./
           script: npm install; npm run build
         provision:
-          root_path: ./.next
+          root_path: ./out
           type: nodejs18x
       prod:
         build:
           root_path: ./
           script: npm install; npm run build
         provision:
-          root_path: ./.next
+          root_path: ./out
           type: nodejs18x
