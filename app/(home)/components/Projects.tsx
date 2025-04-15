@@ -16,24 +16,24 @@ import { DirectionAwareHover } from '@/components/ui/direction-aware-hover';
 export default function Projects() {
   const projects = [
     {
-      title: 'Shared Accommodations Task App',
+      title: 'Sample App',
       tech: [SiReact, SiNodedotjs, SiExpress, SiMongodb],
-      link: 'https://github.com/ccczy-czy/bayt-housing-app',
-      cover: '/bayt.png',
+      link: 'https://github.com/',
+      cover: '/sample-app.png',
       background: 'bg-indigo-500',
     },
     {
-      title: 'Voice to MIDI',
+      title: 'Sample App',
       tech: [SiFlask, SiPython, SiMongodb, SiAmazons3, SiDocker],
-      link: 'https://github.com/ccczy-czy/Sing-Sync',
-      cover: '/singSync.png',
+      link: 'https://github.com/',
+      cover: '/sample-app.png',
       background: 'bg-green-500',
     },
     {
-      title: 'Delightful Pickup Lines Package',
+      title: 'Sample App',
       tech: [SiPython, SiMongodb, SiOpenai],
-      link: 'https://pypi.org/project/pyrizz/',
-      cover: '/pyrizz.png',
+      link: 'https://pypi.org/',
+      cover: '/sample-app.png',
       background: 'bg-purple-500',
     },
   ];

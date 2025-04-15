@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from './Title';
 import Image from 'next/image';
-import profilePic from '../../../public/profilePic.png';
+import avatar from '../../../public/avatar.png';
 import Link from 'next/link';
 
 export default function About() {
@@ -14,28 +14,28 @@ export default function About() {
       <div className="py-20 flex flex-col items-center justify-center gap-6">
         <Image
           alt="profile_pic"
-          src={profilePic}
+          src={avatar}
           className="w-80 h-80 rounded-full border-dashed border-8 border-indigo-500 hover:rotate-6 transition-all"
         ></Image>
         <p className="md:w-5/6 px-8 text-lg text-gray-300">
           {
-            "I'm a software engineer and an incoming graduate student at USC's MSCS program. I'm also a first-generation student and proudly LGBTQIA+."
+            "This is a personal portfolio template where you can showcase your projects and introduce yourself to the world."
           }
         </p>
         <p className="md:w-5/6 px-8 text-lg text-gray-300">
           {
-            'My background continually offers me new perspectives and strengthens my belief in the importance of creating societal good through impactful programs.'
+            'It is interactive and responsive; it adds colors to your profile.'
           }
         </p>
         <p className="md:w-5/6 px-8 text-lg text-gray-300">
           {
-            'In my free time, I enjoy playing basketball and participating in volunteer groups to serve the community 💪 Sounds interesting? Feel free to '
+            'Sounds interesting? Feel free to '
           }
           <Link
-            href={'mailto:ziyuchen2002@gmail.com'}
+            href={'mailto:someone@example.com'}
             className="text-lg text-indigo-500 inline-block "
           >
-            contact me!
+            try out!
           </Link>
         </p>
       </div>

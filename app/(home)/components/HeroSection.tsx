@@ -11,16 +11,16 @@ export default function HeroSection() {
           Nice to meet you! 👋
           <br />{' '}
           <span className="underline underline-offset-8 decoration-green-500">
-            {"I'm Ziyu."}
+            {"I'm Templatey."}
           </span>
         </h1>
         <p className="md:w-96 text-lg text-gray-300">
           {
-            "Based in New York and LA, I'm a software engineer passionate about crafting impactful apps."
+            "I'm a fun portfolio template :)"
           }
         </p>
         <Link
-          href={'mailto:ziyuchen2002@gmail.com'}
+          href={'mailto:someone@example.com'}
           className=" inline-block group"
         >
           <Title text="Contact Me 📭" />
