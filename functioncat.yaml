@@ -1,0 +1,29 @@
+system: 1.0.0
+info:
+  name: templatey
+envs:
+  dev:
+    branch: dev
+  prod:
+    branch: main
+routes:
+  main_env: prod
+  main_app: templatey-ui
+apps:
+  templatey-ui:
+    type: web_frontend
+    envs:
+      dev:
+        build:
+          root_path: ./
+          script: npm install; npm run build
+        provision:
+          root_path: ./dist
+          type: nodejs18x
+      prod:
+        build:
+          root_path: ./
+          script: npm install; npm run build
+        provision:
+          root_path: ./dist
+          type: nodejs18x
